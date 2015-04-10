@@ -258,6 +258,7 @@ platform_check_image() {
 	el-mini | \
 	gl-inet | \
 	oolite | \
+	minibox-v1 | \
 	smart-300 | \
 	tl-mr10u | \
 	tl-mr11u | \

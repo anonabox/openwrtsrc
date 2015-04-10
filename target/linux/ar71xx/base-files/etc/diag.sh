@@ -169,6 +169,9 @@ get_status_led() {
 	oolite)
 		status_led="oolite:red:system"
 		;;
+	minibox-v1)
+		status_led="minibox-v1:green:system"
+		;;
 	tew-632brp)
 		status_led="tew-632brp:green:status"
 		;;
@@ -294,7 +297,7 @@ set_state() {
 		status_led_blink_failsafe
 		;;
 	done)
-		status_led_on
+		status_led_off
 		;;
 	esac
 }

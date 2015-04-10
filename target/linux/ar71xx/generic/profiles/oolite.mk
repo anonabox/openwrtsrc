@@ -16,3 +16,13 @@ define Profile/OOLITE/Description
 endef
 $(eval $(call Profile,OOLITE))
 
+define Profile/MINIBOXV1
+	NAME:=MINIBOX V1.0
+	PACKAGES:=kmod-usb-core kmod-usb2  kmod-ledtrig-usbdev
+endef
+
+
+define Profile/MINIBOXV1/Description
+	Package set optimized for the MINIBOX V1.0
+endef
+$(eval $(call Profile,MINIBOXV1))
